@@ -1,4 +1,3 @@
-
 class Forecast {
   constructor(){
     this.key = 'QUiPjDfmvmLGf6YhYwVwbOQUFnSzOYZM';
@@ -23,3 +22,4 @@ class Forecast {
     return data[0];
   }
 }
+//export default Forecast;
