@@ -1,4 +1,4 @@
-import Forecast from './forecast'
+import 'Forecast' from './forecast'
 
 const app = new Forecast();
 app.run();

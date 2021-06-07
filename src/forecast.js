@@ -1,3 +1,5 @@
+import updateUI from './app'
+
 class Forecast {
   constructor(){
     this.key = 'QUiPjDfmvmLGf6YhYwVwbOQUFnSzOYZM';

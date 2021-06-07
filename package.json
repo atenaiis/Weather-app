@@ -1,6 +1,6 @@
 {
   "homepage": "https://atenaiis.github.io/Weather-app",
-  "name": "Weather-app",
+  "name": "weather-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -36,5 +36,13 @@
   "url-loader": "^4.1.0",
   "webpack": "^4.44.1",
   "webpack-cli": "^3.3.12",
-  "webpack-dev-server": "^3.11.0"
+  "webpack-dev-server": "^3.11.0",
+  "bugs": {
+    "url": "https://github.com/atenaiis/Weather-app/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.1"
+  }
 }
