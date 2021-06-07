@@ -22,4 +22,4 @@ class Forecast {
     return data[0];
   }
 }
-//export default Forecast;
+export default Forecast;
