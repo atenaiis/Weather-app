@@ -1,4 +1,6 @@
-import 'Forecast' from './forecast'
+//import './forecast'
+import  './app'
 
-const app = new Forecast();
-app.run();
+
+//const app = new updateUI();
+//app.run();

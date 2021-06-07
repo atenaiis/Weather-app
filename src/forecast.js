@@ -1,4 +1,3 @@
-import updateUI from './app'
 
 class Forecast {
   constructor(){

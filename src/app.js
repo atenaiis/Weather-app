@@ -1,4 +1,4 @@
-
+import Forecast from './forecast';
 const cityForm = document.querySelector('form');
 const card = document.querySelector('.card');
 const details = document.querySelector('.details');
@@ -56,4 +56,4 @@ if(localStorage.getItem('city')){
     .then(data => updateUI(data))
     .catch(err => console.log(err));
 }
-export default updateUI;
+//export default app;
