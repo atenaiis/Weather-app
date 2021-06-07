@@ -13,6 +13,7 @@
 - HTML
 - JavaScript
 - CSS
+- Webpack
 
 ## Setup and run the app
 
@@ -30,7 +31,7 @@
 
 ### Live Demo :
 
-[Click here](https://atenaiis.github.io/WeatherApp/)
+[Click here](https://rawcdn.githack.com/atenaiis/Weather-app/307c4a7186b52e6db83a8695a51514b2d81ecfaf/dist/index.html
 
 ### Author
 
