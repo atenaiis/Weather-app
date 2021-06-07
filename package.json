@@ -1,15 +1,21 @@
 {
+  "homepage": "https://atenaiis.github.io/Weather-app",
   "name": "Weather-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
-    "serve": "webpack-dev-server --mode development",
     "lint:js": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "lint:css": "stylelint **/*.{css,scss}",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atenaiis/Weather-app.git"
+  },
+  "keywords": [],
   "author": "Mariana Atenais",
   "license": "MIT",
   "@babel/core": "^7.10.5",
