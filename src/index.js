@@ -1,6 +1,5 @@
-//import './forecast'
-import  './app'
+// import './forecast'
+import './app';
 
-
-//const app = new updateUI();
-//app.run();
+// const app = new updateUI();
+// app.run();
