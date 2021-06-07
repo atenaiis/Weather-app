@@ -1,4 +1,5 @@
 import Forecast from './forecast';
+
 const cityForm = document.querySelector('form');
 const card = document.querySelector('.card');
 const details = document.querySelector('.details');
@@ -21,14 +22,14 @@ const updateUI = (data) => {
   `;
 
   // update the night/day & icon images
-  //const iconSrc = `img/icons/${weather.WeatherIcon}.svg`;
-  //icon.setAttribute('src', iconSrc);
+  // const iconSrc = `../img/icons/${weather.WeatherIcon}.svg`;
+  // icon.setAttribute('src', iconSrc);
   
   const timeSrc = weather.IsDayTime ? '../img/day.svg' : '../img/night.svg';
   time.setAttribute('src', timeSrc);
 
   // remove the d-none class if present
-  if(card.classList.contains('d-none')){
+  if ( card.classList.contains ('d-none')){
     card.classList.remove('d-none');
   }
 };
