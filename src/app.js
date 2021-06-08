@@ -7,7 +7,6 @@ const time = document.querySelector('img.time');
 const forecast = new Forecast();
 
 const updateUI = (data) => {
- 
   const { cityDets, weather } = data;
 
   details.innerHTML = `
@@ -24,25 +23,21 @@ const updateUI = (data) => {
   const timeSrc = weather.IsDayTime ? '../img/day.svg' : '../img/night.svg';
   time.setAttribute('src', timeSrc);
 
-  
   if (card.classList.contains('d-none')) {
     card.classList.remove('d-none');
   }
 };
 
 cityForm.addEventListener('submit', (e) => {
-  
   e.preventDefault();
-
 
   const city = cityForm.city.value.trim();
   cityForm.reset();
 
- 
   forecast.updateCity(city)
     .then((data) => updateUI(data))
     .catch((err) => console.log(err));
- 
+
   localStorage.setItem('city', city);
 });
 
