@@ -26,7 +26,7 @@
   - Run npm install on your terminal *be sure that you are in the project's directory*:
   `npm intall`
   - Finally run a local server using chrome:
-  `npm run start`
+  `"start": "webpack-dev-server --mode development --open"
   -Go http://localhost:8080/
 
 ### Live Demo :
